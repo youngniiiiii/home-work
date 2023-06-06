@@ -1,0 +1,47 @@
+h1 {
+  font-size: 15px;
+  line-height: 22.5px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.term {
+  height: 259px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 16px;
+  background-color: #ccc;
+  border: 1px solid #a3a3a3;
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+}
+dd {
+  margin-left: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  font-family: 'Pretendard';
+  font-style: normal;
+  line-height: 150%;
+  color: #181818;
+}
+dt {
+  color: #296897;
+  opacity: 0.7;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.w3cLogo-left {
+  float: left;
+  margin-right: 20px;
+}
+.w3cLogo-right {
+  float: right;
+  margin-left: 20px;
+}

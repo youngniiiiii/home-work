@@ -1,0 +1,24 @@
+body * {
+  box-sizing: border-box;
+}
+
+.listItem li {
+  /* text-align: center; */
+  padding: 8px 8px 8px 16px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Banner {
+  padding-left: 50px;
+  line-height: 37px;
+  text-decoration: none;
+  display: block;
+  color: black;
+  width: 250px;
+  height: 37px;
+  background: url(./image/validation_icon\ 2.png) no-repeat #ccc center;
+  background-position: 10%;
+  border-radius: 34px;
+}
