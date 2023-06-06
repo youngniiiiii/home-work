@@ -10,7 +10,7 @@ body * {
   font-weight: 400;
 }
 
-.Banner {
+.banner {
   padding-left: 50px;
   line-height: 37px;
   text-decoration: none;
@@ -18,7 +18,7 @@ body * {
   color: black;
   width: 250px;
   height: 37px;
-  background: url(./image/validation_icon\ 2.png) no-repeat #ccc center;
+  background: url(./image/validation_icon_2.png) no-repeat #ccc center;
   background-position: 10%;
   border-radius: 34px;
 }
