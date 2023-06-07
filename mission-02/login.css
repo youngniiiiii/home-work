@@ -1,0 +1,102 @@
+body * {
+  box-sizing: border-box;
+}
+
+.login {
+  padding: 12px;
+  width: 244px;
+  height: 161px;
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  box-shadow: 5px 5px 0px #aaaaaa;
+  border-radius: 5px;
+}
+
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+h1 {
+  margin: 0;
+  width: 39px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffff00;
+}
+
+.loginContainer {
+  margin: 0;
+  padding: 8px;
+  width: 220px;
+  height: 106px;
+  background: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+
+.formInput__label {
+  width: 37px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.formInput__input {
+  padding: 0px 0px 0px 8px;
+  width: 90px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.loginBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 50px;
+  height: 53px;
+  background: #ed552f;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+}
+
+.sign {
+  border-top: 1px solid black;
+  margin-top: 8px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+.signin {
+  padding-right: 35px;
+}
+.sign li {
+  font-size: 13px;
+  color: #181818;
+  float: left;
+  list-style-type: none;
+}
+.sign a {
+  text-decoration: none;
+  color: #181818;
+}
+
+.formPassword {
+  padding-top: 4px;
+}
+
+.userId {
+  padding-left: 10px;
+}
+
+.formId label {
+  /* margin: 0; */
+  padding-right: 11px;
+}
