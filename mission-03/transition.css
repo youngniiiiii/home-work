@@ -1,0 +1,43 @@
+body * {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+h1 {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 20px 0px 8px 12px;
+  color: #181818;
+}
+
+.siteList:hover {
+  height: 145px;
+}
+.siteList:hover li {
+  transform: translateY(10px);
+}
+
+.siteList {
+  transition: all 0.3s;
+  margin: 0;
+  padding: 0px;
+  width: 166px;
+  height: 30px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+}
+
+.siteList li {
+  transition: all 0.3s 0.3s;
+  list-style: none;
+  padding: 3px 24px;
+}
+
+li a {
+  color: #181818;
+  font-size: 14px;
+  text-decoration-line: none;
+}
