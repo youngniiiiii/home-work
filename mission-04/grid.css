@@ -1,0 +1,80 @@
+.spacion-sm {
+  padding: 5px;
+}
+.spacion-md {
+  padding: 10px;
+}
+.spacion-lg {
+  padding: 15px;
+}
+
+.accent-primart-color {
+  color: #ed552f;
+}
+.accent-secondary-color {
+  color: #ed552f;
+}
+.news {
+  margin: 20px;
+  width: 380px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'h2 more'
+    'figure newText';
+}
+
+h2 {
+  margin: 0;
+  grid-area: h2;
+  font-weight: 700;
+  font-size: 14px;
+}
+h3 {
+  font-size: 14px;
+  margin: 0 0 12px 0;
+  font-weight: 700;
+}
+
+/* width: 100px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+
+.wrapper {
+  margin-left: -20px;
+}
+figure {
+  margin: 0;
+  padding: 0;
+  grid-area: figure;
+}
+figcaption {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.newText {
+  grid-area: newText;
+  width: 251px;
+  font-size: 14px;
+  color: #181818;
+}
+.newText p {
+  line-height: 150%;
+  text-align: justify;
+}
+
+.more {
+  font-size: 14px;
+  justify-self: end;
+  width: 50px;
+  height: 21px;
+  text-decoration: none;
+  color: #181818;
+  text-align: right;
+  grid-area: more;
+}
