@@ -6,12 +6,20 @@
 
 ## 2.시멘틱마크업
 
-- `<html>`  
-  인기사이트 h2
-  목록 ol>li\*4
-  더보기 a
+`<html>`
 
-- `<css>`
+- 인기사이트 h2
+- 목록 ol>li\*4
+- 더보기 a
+
+`<css>`
+
+- section position 부모로 지정
+- 더보기 position:absolute; 주고 위치변경
+- ol 숫자 제거후 백그라운드 이미지 넣어주기
+- li sprite 값 변경 이미지 배치
+- li에 counter-increment: number;
+- ::before 가상요소 선택자로 content: counter(number); 카운트주고 display: inline-block;으로 변경
 
 ## 3.네이밍 패턴
 
