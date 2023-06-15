@@ -1,0 +1,81 @@
+.spacion-sm {
+  padding: 5px;
+}
+.spacion-md {
+  padding: 10px;
+}
+.spacion-lg {
+  padding: 15px;
+}
+
+.accent-secondary-color {
+  color: #ed552f;
+}
+.accent-primary-color {
+  color: #a3a3a3;
+}
+
+.favorite {
+  box-sizing: border-box;
+  position: relative;
+  width: 190px;
+  height: 147px;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+}
+
+h2 {
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+.favoriteWrapper {
+  margin: 12px;
+}
+
+.favorite_list {
+  list-style-type: none;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.sprite {
+  background: url(./image/rank.png) no-repeat right top;
+  margin: 4px 0;
+}
+
+.list_web {
+  background-position: right -40px;
+}
+.list_css {
+  background-position: right -20px;
+}
+
+a {
+  background: url(./image/Union.png) no-repeat;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 55px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+}
+.sprite {
+  counter-increment: number;
+}
+.sprite::before {
+  content: counter(number);
+  color: white;
+  text-align: center;
+  margin-right: 4px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 11px;
+  background: #a3a3a3;
+  border-radius: 5px;
+}
